@@ -10,8 +10,9 @@ import  ReactDom from "react-dom";
 function Greeting (){
   return (
 <div>
-<Person />
-<Message />
+
+<h2>john doe</h2>
+<p>this is my message</p>
 </div>
 
 
@@ -20,11 +21,7 @@ function Greeting (){
 }
 
 const Person=() =><h2>john doe</h2>
-const Message = () =>{
-return <p>this is my message</p>;
 
-
-}
 
 
 // const Greeting =() =>{

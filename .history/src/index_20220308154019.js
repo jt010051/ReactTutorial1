@@ -8,23 +8,26 @@ import  ReactDom from "react-dom";
 //always return JSX
 
 function Greeting (){
-  return (
-<div>
-<Person />
-<Message />
-</div>
+  return(
+    <div>
+     <div>
+<h3>Hello People</h3>   
+<ul>
+
+  <li>
+
+    <a href="#">Hello World</a>
+    <img src="" alt="" />
+  </li>
+</ul>
 
 
-  )
+ </div>
+ </div>
+    );
 
 }
 
-const Person=() =><h2>john doe</h2>
-const Message = () =>{
-return <p>this is my message</p>;
-
-
-}
 
 
 // const Greeting =() =>{

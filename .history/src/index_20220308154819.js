@@ -20,7 +20,7 @@ function Greeting (){
 }
 
 const Person=() =><h2>john doe</h2>
-const Message = () =>{
+const Message = ()) =>{
 return <p>this is my message</p>;
 
 

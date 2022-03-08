@@ -4,27 +4,28 @@ import  ReactDom from "react-dom";
 //return single elaement
 
 //jsx use className instead of class
-//close every element </>
 //always return JSX
 
 function Greeting (){
-  return (
-<div>
-<Person />
-<Message />
-</div>
+  return(
+    <div>
+     <div>
+<h3>Hello People</h3>   
+<ul>
+
+  <li>
+
+    <a href="#">Hello World</a>
+  </li>
+</ul>
 
 
-  )
+ </div>
+ </div>
+    );
 
 }
 
-const Person=() =><h2>john doe</h2>
-const Message = () =>{
-return <p>this is my message</p>;
-
-
-}
 
 
 // const Greeting =() =>{
