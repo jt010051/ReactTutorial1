@@ -1,7 +1,5 @@
 import React from "react";
 import  ReactDom from "react-dom";
-
-import './index.css' //css
 //stateless functional component
 //return single elaement
 
@@ -12,6 +10,13 @@ import './index.css' //css
 function BookList (){
   return (
 <section>
+<Book />
+<Book />
+<Book />
+<Book />
+<Book />
+<Book />
+<Book />
 <Book />
 </section>
 

@@ -1,7 +1,5 @@
 import React from "react";
 import  ReactDom from "react-dom";
-
-import './index.css' //css
 //stateless functional component
 //return single elaement
 

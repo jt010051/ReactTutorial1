@@ -1,7 +1,5 @@
 import React from "react";
 import  ReactDom from "react-dom";
-
-import './index.css' //css
 //stateless functional component
 //return single elaement
 
@@ -25,7 +23,6 @@ return <article>
 
 <Image></Image>
 <Title></Title>
-<Author></Author>
 </article>
 
 }
@@ -34,7 +31,7 @@ return <article>
 const Image =() => <img src="https://images-na.ssl-images-amazon.com/images/I/81SQwBAtpWL._AC_UL604_SR604,400_.jpg" alt="" />
 
 const Title =() =><h1>Run, Rose, Run: A Novel</h1>
-const Author =() =><h4>RJames Patterson</h4>
+const Author =() =><h1>RJames Patterson</h1>
 
 
 ReactDom.render(<BookList/>, document.getElementById("root"))
