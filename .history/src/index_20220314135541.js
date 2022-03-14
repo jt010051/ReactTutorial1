@@ -19,9 +19,7 @@ const author ='RJames Patterson'
 function BookList (){
   return  (
 <section className='bookList'>
-<Book job ="developer"/>
 <Book />
-
 
 </section>
 
@@ -29,16 +27,16 @@ function BookList (){
   );
 
 }
-const Book =(props)=>{
-
-  console.log(props)
+const Book =()=>{
 return(
   <article className="book">
 
 <img src={img} alt="" />
 
 <h1>{title}</h1>
-<h4>{author}</h4>
+<h4>{author.toUpperCase()}</h4>
+{/* <p>{let x =6}</p> */}
+<p>{6+6}</p>
 </article>
 );
 

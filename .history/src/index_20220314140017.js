@@ -19,7 +19,7 @@ const author ='RJames Patterson'
 function BookList (){
   return  (
 <section className='bookList'>
-<Book job ="developer"/>
+<Book job ="developer'/>
 <Book />
 
 

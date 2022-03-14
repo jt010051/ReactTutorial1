@@ -19,7 +19,7 @@ const author ='RJames Patterson'
 function BookList (){
   return  (
 <section className='bookList'>
-<Book job ="developer"/>
+<Book />
 <Book />
 
 
@@ -39,6 +39,7 @@ return(
 
 <h1>{title}</h1>
 <h4>{author}</h4>
+{console.log(props)}
 </article>
 );
 

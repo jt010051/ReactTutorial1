@@ -19,9 +19,7 @@ const author ='RJames Patterson'
 function BookList (){
   return  (
 <section className='bookList'>
-<Book job ="developer"/>
 <Book />
-
 
 </section>
 
@@ -29,9 +27,7 @@ function BookList (){
   );
 
 }
-const Book =(props)=>{
-
-  console.log(props)
+const Book =()=>{
 return(
   <article className="book">
 
@@ -39,6 +35,7 @@ return(
 
 <h1>{title}</h1>
 <h4>{author}</h4>
+
 </article>
 );
 
