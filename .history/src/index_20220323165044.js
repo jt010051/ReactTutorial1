@@ -47,9 +47,9 @@ author={secondBook.author}
   );
 
 }
-const Book =(props)=>{
-console.log(props)
-  const {img, title, author}=props
+const Book =({img, title, author, children})=>{
+
+  //const {img, title, author}=props
 return(
   <article className="book">
 
@@ -57,7 +57,7 @@ return(
 
 <h1>{title}</h1>
 <h4>{author}</h4>
-{props.children}
+{children}
 </article>
 );
 

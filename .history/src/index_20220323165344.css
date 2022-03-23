@@ -27,7 +27,7 @@ gap: 2rem;
 @media screen and (min-width:769px){
 .bookList{
 grid-template-columns: repeat(3, 1fr);
-
+align-items: flex-start;
 }
 
 
@@ -50,8 +50,4 @@ padding: 1rem 2rem;
 color: #617d98;
 font-size: 0.75rem;
 margin-top: 0.25rem;
-}
-.book p{
-
-    margin-top: 0.5rem;
 }

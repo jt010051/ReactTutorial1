@@ -30,8 +30,7 @@ img={firstBook.img}
 title={firstBook.title} 
 author={firstBook.author}
  >
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus optio doloremque aspernatur numquam dignissimos quasi quidem dolor doloribus consectetur harum!
-   </p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus optio doloremque aspernatur numquam dignissimos quasi quidem dolor doloribus consectetur harum!</p>
    </Book>
 <Book 
 img={secondBook.img} 
@@ -47,9 +46,9 @@ author={secondBook.author}
   );
 
 }
-const Book =(props)=>{
-console.log(props)
-  const {img, title, author}=props
+const Book =({img, title, author})=>{
+
+  //const {img, title, author}=props
 return(
   <article className="book">
 
@@ -57,7 +56,6 @@ return(
 
 <h1>{title}</h1>
 <h4>{author}</h4>
-{props.children}
 </article>
 );
 

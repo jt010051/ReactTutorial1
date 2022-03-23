@@ -25,20 +25,9 @@ author:'Delia Owens'
 function BookList (){
   return  (
 <section className='bookList'>
-<Book 
-img={firstBook.img} 
-title={firstBook.title} 
-author={firstBook.author}
- >
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus optio doloremque aspernatur numquam dignissimos quasi quidem dolor doloribus consectetur harum!
-   </p>
-   </Book>
-<Book 
-img={secondBook.img} 
-title={secondBook.title} 
-author={secondBook.author} 
-/>
+<Book img={firstBook.img} title={firstBook.title} author={firstBook.author} />
 
+<Book title = "random title" number ={22} />
 
 
 </section>
@@ -48,16 +37,15 @@ author={secondBook.author}
 
 }
 const Book =(props)=>{
-console.log(props)
-  const {img, title, author}=props
+
+  console.log(props)
 return(
   <article className="book">
 
-<img src ={img} alt='' />
 
-<h1>{title}</h1>
-<h4>{author}</h4>
-{props.children}
+<img src ={props.img} alt='' />
+<h1>{props.title}</h1>
+<h4>{props.author}</h4>
 </article>
 );
 
