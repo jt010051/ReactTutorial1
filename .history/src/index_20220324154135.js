@@ -2,7 +2,7 @@ import React from "react";
 import  ReactDom from "react-dom";
 import {books} from './books';
 import Book from './book';
-import {greeting} from './testing/test';
+import {test} from './testing/test';
 import './index.css'; //css
 
 //stateless functional component
@@ -18,7 +18,7 @@ import './index.css'; //css
 
 
 function BookList (){
-  console.log(greeting)
+  console.log(test)
   return  <section className='bookList'>
 {books.map(book=>{
 return (
