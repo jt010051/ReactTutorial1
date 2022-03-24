@@ -24,7 +24,7 @@ gap: 2rem;
 
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:769px){
 .bookList{
 grid-template-columns: repeat(3, 1fr);
 
